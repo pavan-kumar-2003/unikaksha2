@@ -1,0 +1,16 @@
+n=int(input())
+a=[]
+for i in range(n):
+    a.append(input())
+for i in a:
+    if"?"in i:
+        print("Invalid")
+    elif"@"in i:
+        print("Invalid")
+    elif i[0]=="1" or i[0]=="_":
+        print("Invalid")
+    elif len(i)<8:
+        print("Invalid")
+    else:
+        print("Valid")
+        
