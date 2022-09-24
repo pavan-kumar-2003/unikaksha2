@@ -1,0 +1,6 @@
+m=str(input())
+n=sorted(m)
+if"0"in m:
+    print(n[1])
+else:
+    print(n[0])
